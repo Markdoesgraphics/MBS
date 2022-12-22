@@ -5,15 +5,15 @@
 	background-color: #BCCEF8;
 	background-image: url("../images/img-background-01.jpg");
 	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
 
 h1{
-	font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-/*    line-height: 1.5;*/
+	font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 4rem;
     color: #ffffff;
     padding-top: 5%;
 }
@@ -41,7 +41,7 @@ h5{
 #services{
 	background-color: #CDFCF6;
 
-	padding: 5% 15%;
+	padding: 2% 15%;
 }
 
 .servicesRow{
@@ -99,23 +99,23 @@ h4{
 
 #callToAction{
 	text-align: center;
-	padding: 5% 15%;
+	padding: 5% 10%;
 	background-color:#CDFCF6 ;
 }
 
 .ctaVideo{
-	width: 100%;
-	height: 30%;
+	max-width: 100%;
+	height: auto;
 }
 
 .ctaBtn{
+	font-size: 1.5rem;
 	margin-top: 5%;
 }
 
 /*FOOTER SECTION*/
 
 #footer{
-/*	background-color: #98A8F8;*/
 	text-align: center;
 	padding: 5% 5%;
 }
@@ -133,16 +133,21 @@ h4{
 	display: inline;
 }
 
-/*Querries*/
 
-@media (max-width: 400px){
+
+
+
+/*Querries for Mobile Screen*/
+
+@media (max-width: 540px){
      
 /*heading section*/
 
 	h1{
-	font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
+	font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-kerning: auto;
     line-height: 1.2;
     color: #ffffff;
     padding-top: 5%;
@@ -158,7 +163,7 @@ h5{
 .headingButton{
 	font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 5% auto;
 }
 
@@ -201,9 +206,14 @@ h4{
 
 /*CTA SECTION*/
 
+#callToAction{
+	padding: 5% 3%;
+	
+}
+
 .ctaBtn{
 	font-weight: 400;
-	font-size: 0.8rem;
+	font-size: 1.3rem;
 }
 
 /*FOOTER SECTION*/

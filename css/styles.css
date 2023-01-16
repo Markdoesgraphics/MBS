@@ -99,7 +99,7 @@ h4{
 
 #callToAction{
 	text-align: center;
-	padding: 5% 10%;
+	padding: 5% auto;
 	background-color:#CDFCF6 ;
 }
 
@@ -209,11 +209,6 @@ h4{
 }
 
 /*CTA SECTION*/
-
-#callToAction{
-	padding: 5% 3%;
-	
-}
 
 .ctaBtn{
 	font-weight: 400;
